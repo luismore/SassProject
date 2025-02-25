@@ -1,0 +1,11 @@
+{
+  "dest": "docs",
+  "theme": "default",
+  "verbose": true,
+  "basePath": "scss",
+  "groups": {
+    "colores": "Colores",
+    "utilidades": "Utilidades",
+    "fuentes": "Fuentes"
+  }
+}

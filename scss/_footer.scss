@@ -1,0 +1,39 @@
+.footer {
+    padding: 60px 20px;
+    background-color: $tertiary-color;
+    color: $primary-color;
+    text-align: center;
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+
+        .footer-links {
+            margin-top: 30px;
+
+            a {
+                color: $primary-color;
+                text-decoration: none;
+                margin: 0 15px;
+                font-size: 1rem;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}

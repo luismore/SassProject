@@ -1,0 +1,38 @@
+/// Centra un elemento horizontal y verticalmente.
+/// @group utilidades
+/// @param {Imagen} imagen Url de la imagen usada de fondo.
+/// @example  .elemento {
+///     @include flex-center( URL );
+///   }
+
+@mixin flex-center($imagen) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-image: url($imagen);
+    background-size: cover;
+    background-position: center;
+    color: $primary-color;
+    text-align: center;
+    position: relative;
+}
+
+/// Crea un grid centrado horizontal y verticalmente.
+/// @group utilidades
+/// @param {Gap} gap Espacio entre las celdas.
+/// @param {Max-Width} max-width Ancho máximo de la celda.
+/// @param {$margin} margin Margen superior e inferior.
+/// @example  .elemento {
+///     @include grid-center( 1vh, 1200px, 0 auto );
+///   }
+
+@mixin grid-center($gap, $max-width, $margin){
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: $gap;
+    max-width: $max-width;
+    margin: $margin;
+}

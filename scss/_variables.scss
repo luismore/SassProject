@@ -1,0 +1,35 @@
+/// Color principal de la marca.
+/// @type Color
+/// @group colores
+$primary-color: #fff;
+
+/// Color secundario de la marca.
+/// @type Color
+/// @group colores
+$secondary-color: #666;
+
+/// Color terciario de la marca.
+/// @type Color
+/// @group colores
+$tertiary-color: #333;
+
+/// Color negro de la marca.
+/// @type Color
+/// @group colores
+$black-color: #000;
+
+/// Color principal del background.
+/// @type Color
+/// @group colores
+$background-color: #f4f4f4;
+
+/// Color principal del background transparente.
+/// @type Color
+/// @group colores
+$background-color-dark: rgba(0,0,0,0.5);
+
+/// Fuente principal de la marca.
+/// @type Fuente
+/// @group fuentes
+$font-stack: 'Montserrat', sans-serif;
+$font-size: 16px;

@@ -1,0 +1,27 @@
+.hero {
+    @include flex-center('../images/imageHero.jpg');
+
+    .hero-title {
+        position: absolute;
+        top: 18vh;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin: 0;
+    }
+
+    .hero-content {
+        max-width: 800px;
+        background-color: $background-color-dark;
+        padding: 2vh;
+        margin-top: auto;
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+}
